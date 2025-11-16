@@ -8,7 +8,7 @@ import { AuthProvider } from "./contexts/AuthContext";
 import LoginPage from "./components/LoginPage";
 import ChatUI from "./components/Chat-UI/ChatUI";
 import { OpenAIAdapter } from "./adapters/OpenAIAdapter";
-import { BackendAdapter } from "../adapters/BackendAdapter";
+import { BackendAdapter } from "./adapters/BackendAdapter";
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>

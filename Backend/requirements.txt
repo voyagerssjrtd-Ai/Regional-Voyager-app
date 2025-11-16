@@ -4,3 +4,4 @@ langgraph
 pydantic
 python-dotenv
 Jinja2
+duckdb
