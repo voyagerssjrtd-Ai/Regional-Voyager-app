@@ -1,0 +1,81 @@
+# -----------------------
+# Python / Backend
+# -----------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+*.log
+.env
+env/
+venv/
+.venv/
+pip-wheel-metadata/
+.cache/
+.scannerwork/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# SQLite / DuckDB
+*.db
+*.duckdb
+*.db-shm
+*.db-wal
+
+# VSCode
+.vscode/
+*.code-workspace
+
+# -----------------------
+# Node / Frontend
+# -----------------------
+node_modules/
+dist/
+build/
+.npm/
+.pnpm-store/
+.next/
+.cache/
+.env.local
+.env.development.local
+.env.production.local
+.env.test.local
+
+# Debug Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# MacOS
+.DS_Store
+
+# -----------------------
+# Temporary / Generated
+# -----------------------
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+
+# -----------------------
+# Secrets / Keys
+# -----------------------
+*.pem
+*.key
+*.p12
+*.jks
+secrets.json
+apikeys.json
+
+# -----------------------
+# Project Specific
+# -----------------------
+backend/archive/
+backend/notebooks/
+frontend/archive_adapters/

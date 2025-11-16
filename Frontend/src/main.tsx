@@ -8,6 +8,7 @@ import { AuthProvider } from "./contexts/AuthContext";
 import LoginPage from "./components/LoginPage";
 import ChatUI from "./components/Chat-UI/ChatUI";
 import { OpenAIAdapter } from "./adapters/OpenAIAdapter";
+import { BackendAdapter } from "../adapters/BackendAdapter";
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
@@ -16,7 +17,7 @@ ReactDOM.createRoot(document.getElementById("root")!).render(
         <BrowserRouter>
           <Routes>
             <Route path="/" element={<LoginPage />} />
-            <Route path="/chat" element={<ChatUI backend={OpenAIAdapter} />} />
+            <Route path="/chat" element={<ChatUI backend={BackendAdapter} />} />
             <Route path="*" element={<Navigate to="/" replace />} />
           </Routes>
         </BrowserRouter>
