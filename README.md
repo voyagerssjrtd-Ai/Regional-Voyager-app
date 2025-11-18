@@ -1,3 +1,11 @@
+Run this before running any scripts in the powershell terminal
+Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+npm config set strict-ssl false
+npm config set registry http://registry.npmjs.org/
+npm install
+npm run dev
+
+
 ⚙️ PHASE 1 – DATA & DATABASES
 
 Design schemas (SQLite)
